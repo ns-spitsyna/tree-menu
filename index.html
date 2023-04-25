@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+				content="">
+	<meta name="keywords"
+				content="">
+	<link rel="shortcut icon"
+				href="img/favicons/favicon.svg"
+				type="image/svg+xml">
+	<link rel="shortcut icon"
+				href="img/favicons/favicon.webp"
+				type="image/webp">
+	<link rel="shortcut icon"
+				href="img/favicons/favicon.png"
+				type="image/x-icon">
+	<link rel="stylesheet"
+				href="css/libs.min.css">
+	<link rel="stylesheet"
+				href="css/style.min.css">
+	<title>Tree menu</title>
+</head>
+
+
+<body>
+	<main class="main">
+	<ul class="list list_level-1">
+    <li class="list__item list__item_type_open">
+        Folder 1
+        <ul class="list list_level-2">
+            <li class="list__item list__item_file">File 1.1</li>
+        </ul>
+    </li>
+    <li class="list__item list__item_type_open">Folder 2
+        <ul class="list list_level-2">
+            <li class="list__item list__item_type_open">Subfolder 2.1
+                <ul class="list list_level-3">
+                    <li class="list__item list__item_file">File 2.1.1</li>
+                    <li class="list__item list__item_file">File 2.1.2</li>
+                </ul>
+            </li>
+            <li class="list__item list__item_file">File 2.2</li>
+        </ul>
+    </li>
+    <li class="list__item list__item_type_close">Folder 3
+        <ul class="list list_level-2">
+            <li class="list__item list__item_file">File 3</li>
+        </ul>
+    </li>
+    <li class="list__item list__item_file">File 4 </li>
+</ul>
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
