@@ -6,7 +6,7 @@
   "scripts": {
     "html": "gulp",
     "start": "gulp",
-    "build": "gulp fonts && gulp style && gulp build_js && gulp html && gulp images"
+    "build": "gulp style && gulp build_js && gulp html"
 
   },
   "author": "",
